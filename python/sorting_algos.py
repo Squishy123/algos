@@ -1,17 +1,12 @@
 # Swap 2 elements of arr at indices i and j 
 def swap(arr, i, j):
-    ti,tj=i,j
-    ai,aj=arr[i],arr[j]
     arr[i] = arr[i] + arr[j]
     arr[j] = arr[i] - arr[j]
     arr[i] = arr[i] - arr[j]
-    if(arr[i] == 0):
-        print(ai)
-        #print(i)
-    if(arr[j] == 0):
-        print(aj)
-        #print(j)
     #arr[i],arr[j]=arr[j],arr[i]
+
+def shitty_boba_sort(arr):
+
 
 # Recursively sort elements of arr using bubble sort
 def boba_sort(arr):
