@@ -1,0 +1,8 @@
+#!/bin/bash
+
+temp=0
+for arg
+do
+	temp=$(( temp + arg ))
+done
+echo $temp
