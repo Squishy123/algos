@@ -5,9 +5,6 @@ def swap(arr, i, j):
     arr[i] = arr[i] - arr[j]
     #arr[i],arr[j]=arr[j],arr[i]
 
-def shitty_boba_sort(arr):
-
-
 # Recursively sort elements of arr using bubble sort
 def boba_sort(arr):
     def aux(arr, acc=[]):
